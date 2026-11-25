@@ -14,7 +14,7 @@ import plotly.graph_objects as go
 import streamlit as st
 
 BASE = Path(__file__).parent
-MODEL_DIR, DATA_DIR = BASE / "models", BASE / "data"
+MODEL_DIR, DATA_DIR = BASE, BASE
 
 st.set_page_config(page_title="Luxury Skincare Alternatives", page_icon="🧴", layout="wide")
 
